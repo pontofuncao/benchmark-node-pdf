@@ -1,0 +1,5 @@
+FROM postgres:latest
+ENV POSTGRES_USER ferrettopg
+ENV POSTGRES_PASSWORD ferrettopg
+COPY ./resources/dump.sql /docker-entrypoint-initdb.d/
+

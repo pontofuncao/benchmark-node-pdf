@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 1901567 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            3000
+
+Document Path:          /pdf/puppeteer?repeats=10
+Document Length:        100141 bytes
+
+Concurrency Level:      10
+Time taken for tests:   47.750 seconds
+Complete requests:      100
+Failed requests:        0
+Keep-Alive requests:    0
+Total transferred:      10023900 bytes
+HTML transferred:       10014100 bytes
+Requests per second:    2.09 [#/sec] (mean)
+Time per request:       4774.975 [ms] (mean)
+Time per request:       477.497 [ms] (mean, across all concurrent requests)
+Transfer rate:          205.01 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       1
+Processing:  2740 4410 730.2   4322    6784
+Waiting:     2740 4409 730.2   4321    6783
+Total:       2740 4410 730.3   4323    6785
+
+Percentage of the requests served within a certain time (ms)
+  50%   4323
+  66%   4398
+  75%   4479
+  80%   4638
+  90%   5128
+  95%   6645
+  98%   6766
+  99%   6785
+ 100%   6785 (longest request)

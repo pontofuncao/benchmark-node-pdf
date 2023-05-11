@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 1901567 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            3000
+
+Document Path:          /pdf/html-pdf-node?repeats=11
+Document Length:        148370 bytes
+
+Concurrency Level:      30
+Time taken for tests:   99.277 seconds
+Complete requests:      200
+Failed requests:        0
+Keep-Alive requests:    0
+Total transferred:      29693600 bytes
+HTML transferred:       29674000 bytes
+Requests per second:    2.01 [#/sec] (mean)
+Time per request:       14891.587 [ms] (mean)
+Time per request:       496.386 [ms] (mean, across all concurrent requests)
+Transfer rate:          292.09 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.1      1       7
+Processing:  2611 14028 2870.1  14457   22456
+Waiting:     2610 13973 2852.2  14355   22415
+Total:       2611 14029 2870.1  14459   22457
+
+Percentage of the requests served within a certain time (ms)
+  50%  14459
+  66%  15230
+  75%  15662
+  80%  15806
+  90%  17129
+  95%  17933
+  98%  18229
+  99%  20343
+ 100%  22457 (longest request)
